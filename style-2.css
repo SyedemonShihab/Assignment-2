@@ -300,26 +300,29 @@ responsive for mini mini screen
     flex-direction: column;
   }
 
-  .main-preant-div{
-   
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  .main-preant-div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-.link-bar{
-width: 50%;
-  display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
-.blogs{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  justify-content: center;
- align-items: center;
-}
+
+  .link-bar {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
   /* .blogs{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -382,53 +385,46 @@ for tab responsive
     display: flex;
     flex-direction: column;
   }
+  main{
+    text-align: center;
+  }
+
+  main .main-preant-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .link-bar {
+    width: 100%;
+    height: auto;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .link-bar a {
+    margin-bottom: 50px;
+  }
 
   .blogs {
-    margin-top: 50px;
+    float: center;
+    margin-top: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  main {
-    display: flex;
-    flex-direction: column;
-  }
+}
 
-  main .link-bar {
-    width: 100%;
-   display:flex;
-   flex-direction: row;
-  }
-  main .link-bar a{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
 
-  main .main-preant-div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    column-gap: 20px;
-  }
 
-  main .main-preant-div div .link-bar {
-    width: 150px;
-    background: none;
-    display: inline;
-    padding-left: 100px;
-  }
 
-  main .main-preant-div div .link-bar a {
-    padding-left: 90px;
-    margin: 0 auto;
-    padding: 15px;
-  }
-
-  .hidden-div {
-    visibility: visible;
-  }
+.hidden-div {
+  visibility: visible;
+}
 
 }
 

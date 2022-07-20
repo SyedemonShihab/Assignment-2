@@ -300,32 +300,50 @@ responsive for mini mini screen
     flex-direction: column;
   }
 
-  .blogs {
-    width: 80%;
+  .main-preant-div{
+   
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  }
+.link-bar{
+width: 50%;
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+ align-items: center;
+}
+  /* .blogs{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  main {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
-  main .link-bar {
-    margin-bottom: 15px;
+  /* main .link-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
     margin-left: 90px;
     background: none;
-  }
+  } */
 
-  main .link-bar a {
+  /* main .link-bar a {
     text-align: center;
   }
 
   main .link-bar:hover {
     background: none;
-  }
+  } */
 
   footer {
     height: 650px;
@@ -378,13 +396,21 @@ for tab responsive
   }
 
   main .link-bar {
-    margin-left: 80px;
+    width: 100%;
+   display:flex;
+   flex-direction: row;
+  }
+  main .link-bar a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   main .main-preant-div {
     width: 100%;
     display: flex;
     flex-direction: column;
+    column-gap: 20px;
   }
 
   main .main-preant-div div .link-bar {

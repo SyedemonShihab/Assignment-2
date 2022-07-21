@@ -402,6 +402,7 @@ for tab responsive
     display: inline;
     justify-content: center;
     align-items: center;
+   margin-right: 90px;
 
   }
 
@@ -410,11 +411,14 @@ for tab responsive
   }
 
   .blogs {
-    float: center;
+    float: bottom;
     margin-top: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 120px;
   }
 
 }
@@ -426,7 +430,7 @@ for tab responsive
   visibility: visible;
 }
 
-}
+
 
 /*-----------------------
  media qurey end 
